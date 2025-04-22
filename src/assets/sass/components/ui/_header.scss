@@ -1,0 +1,25 @@
+@use "../utils/variables" as v;
+
+#header {
+	position: sticky;
+	height: 4.5rem;
+	display: flex;
+	align-items: center;
+	border-bottom: var(--border_color01);
+	box-shadow: var(--box_shadow01);
+	.container {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+	.header__nav{
+		display: flex;
+		gap: 2rem;
+		li{
+			font-size: var(--text_size_default);
+			a{
+				color: var(--text_color02);
+			}
+		}
+	}
+}
